@@ -14,7 +14,7 @@
 
 ## 3. Próximos passos
 
-- [ ] 3.1 Conectar `AddResumeButton` ao `Dialog` de criação
+- [x] 3.1 Conectar `AddResumeButton` ao `Dialog` de criação
 - [ ] 3.2 Substituir cards mockados por dados reais
 - [ ] 3.3 Criar a página `/dashboard/resumes/[id]`
 

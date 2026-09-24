@@ -1,8 +1,15 @@
+import { Suspense } from 'react'
+import { ResumesList } from '@/components/pages/dashboard/resumes/resumes-list'
+import { ResumesListSkeleton } from '@/components/pages/dashboard/resumes/resumes-list/skeleton'
+
 export default function DashboardResumesPage() {
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center gap-4">
-      <h1 className="font-bold text-2xl">Currículos</h1>
-      <p className="text-muted-foreground">Em breve...</p>
-    </div>
+    <>
+      <h1 className="mb-6 font-bold font-title text-3xl">Currículos</h1>
+
+      <Suspense fallback={<ResumesListSkeleton />}>
+        <ResumesList />
+      </Suspense>
+    </>
   )
 }

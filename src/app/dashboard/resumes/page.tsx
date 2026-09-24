@@ -5,7 +5,7 @@ import { ResumesListSkeleton } from '@/components/pages/dashboard/resumes/resume
 export default function DashboardResumesPage() {
   return (
     <>
-      <h1 className="mb-6 font-bold font-title text-3xl">Currículos</h1>
+      <h1 className="mb-4 font-bold font-title text-2xl sm:mb-6 sm:text-3xl">Currículos</h1>
 
       <Suspense fallback={<ResumesListSkeleton />}>
         <ResumesList />

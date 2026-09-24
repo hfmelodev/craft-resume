@@ -15,7 +15,7 @@ export function ResumeCardButton({ title, description, icon }: ResumeCardButtonP
     // biome-ignore lint/a11y/useButtonType: <false>
     <button
       className={cn(
-        'h-75 w-full rounded border border-muted-foreground/20 bg-muted/50',
+        'h-60 w-full rounded border border-muted-foreground/20 bg-muted/50 sm:h-75',
         'relative flex items-center justify-center overflow-hidden outline-none',
         'transition-all hover:brightness-105 dark:hover:brightness-125'
       )}

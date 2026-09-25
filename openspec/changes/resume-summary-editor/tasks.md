@@ -11,7 +11,7 @@
 
 ## 3. Próximos passos
 
-- [ ] 3.1 Seções múltiplas (redes sociais, experiências, formações, idiomas, habilidades, certificações, projetos)
+- [~] 3.1 Seções múltiplas (redes sociais, experiências, formações, idiomas, habilidades, certificações, projetos)
 - [ ] 3.2 Renderizar o resumo no preview, com sanitização do HTML
 
 ## 4. Verificação

@@ -18,7 +18,7 @@
 ## 4. Próximos passos
 
 - [ ] 4.1 Menu de geração por IA (cargo, corrigir conteúdo, traduzir)
-- [ ] 4.2 Seção de resumo e seções múltiplas
+- [~] 4.2 Seção de resumo e seções múltiplas (resumo feito em `resume-summary-editor`)
 - [ ] 4.3 Carregar os valores do formulário pelo `id` do currículo
 
 ## 5. Verificação

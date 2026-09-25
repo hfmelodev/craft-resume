@@ -9,7 +9,7 @@ import { StructureSidebar } from './structure-sidebar'
 export function ResumePage() {
   const defaultValues: ResumeData = {
     content: {
-      // summary: '<p></p>',
+      summary: '<p></p>',
       image: {
         url: '',
         visible: true,

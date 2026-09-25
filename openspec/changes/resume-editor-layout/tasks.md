@@ -11,7 +11,7 @@
 
 ## 3. Próximos passos
 
-- [ ] 3.1 Seções de informações (dados básicos, resumo, seções múltiplas) e geração por IA
+- [~] 3.1 Seções de informações (dados básicos, resumo, seções múltiplas) e geração por IA
 - [ ] 3.2 Preview com zoom/pan e templates
 - [ ] 3.3 Seções de estrutura (templates, layout, tema, idioma)
 - [ ] 3.4 Carregar os dados do currículo pelo `id`

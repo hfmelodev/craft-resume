@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import Logo from '@/assets/logo.svg'
+import { Separator } from '@/components/ui/separator'
+import { IAGenerationDropdown } from './ai-generation-dropdown'
+import { BasicInfoSection } from './sections/basic-info'
 
 export const InfosSidebar = () => {
   return (
@@ -9,15 +12,15 @@ export const InfosSidebar = () => {
           <Logo className="w-full max-w-20" />
         </Link>
 
-        {/* <AIGenerationDropdown /> */}
+        <IAGenerationDropdown />
       </div>
 
-      {/* <Separator className="my-5" />
+      <Separator className="my-5" />
 
       <BasicInfoSection />
-      <Separator className="my-5" />
-      <SummarySection />
-      <MultiplesSections /> */}
+      {/* <Separator className="my-5" /> */}
+      {/* <SummarySection /> */}
+      {/* <MultiplesSections /> */}
     </aside>
   )
 }
